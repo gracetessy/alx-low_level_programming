@@ -1,4 +1,4 @@
-#include "main.h"
+#include <main.h>
 
 /**
  * print_alphabet - print alphabet
@@ -13,7 +13,6 @@ void print_alphabet(void)
 	{
 		_putchar(letter);
 		letter++;
-
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
